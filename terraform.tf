@@ -14,14 +14,13 @@ terraform {
     }
   }
 
-  /* Uncomment this block to use Terraform Cloud for this tutorial
+# Uncomment this block to use Terraform Cloud for this tutorial
   cloud {
-    organization = "organization-name"
+    organization = "hr13lab"
     workspaces {
       name = "learn-terraform-init"
     }
   }
-*/
 
   required_version = "~> 1.6"
 }
